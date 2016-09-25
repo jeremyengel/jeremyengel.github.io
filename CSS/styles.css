@@ -1,1 +1,53 @@
-blank css file
+body{
+	background-color: #0099cc;
+	font-family: Verdana, Geneva, sans-serif
+}
+
+.wrapper{
+	margin: 2.5%;
+
+}
+
+header{
+	border-top: 5px solid #ffffff;
+	border-bottom: 3px solid #ffffff;
+}
+
+h1{
+	color: #000000;
+}
+
+nav ul{
+	padding-bottom: 10px;
+	padding-left: 30px;
+	float: right;
+	font-size: 20px;
+}
+
+nav li{
+	display: inline;
+	margin-right: 15px;
+}
+
+nav li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav li a:hover, nav li a.current{
+	color: #000000;
+}
+
+.Selfie{
+	margin-top: 80px;
+	text-align: center;
+}
+
+.bio_paragraph
+{
+	margin-top: 100px;
+	font-style: italic;
+	margin-right: 300px;
+}
+
+
