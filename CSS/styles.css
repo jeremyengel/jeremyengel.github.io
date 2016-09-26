@@ -5,16 +5,23 @@ body{
 
 .wrapper{
 	margin: 2.5%;
-
 }
 
 header{
-	border-top: 5px solid #ffffff;
+	border-top: 6px solid #ffffff;
 	border-bottom: 3px solid #ffffff;
 }
 
 h1{
 	color: #000000;
+}
+
+h4{
+	margin-top: 60px;	
+}
+
+h4, h3{
+	font-size: 22px;
 }
 
 nav ul{
@@ -45,9 +52,30 @@ nav li a:hover, nav li a.current{
 
 .bio_paragraph
 {
-	margin-top: 100px;
+	margin-top: 60px;
 	font-style: italic;
 	margin-right: 300px;
 }
 
+table{
+	width: 100%;
+	border-spacing: 0px;
+	margin: 30px;
+	font-size: 14px;
+}
+
+td{
+	height: 40px;
+	border-bottom: 1px dotted;
+	border-color: #ffffff;
+}
+
+.table_header{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.table_wrapper{
+	margin-right: 100px;
+}
 
